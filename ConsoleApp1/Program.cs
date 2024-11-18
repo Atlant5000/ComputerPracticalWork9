@@ -17,7 +17,7 @@ namespace ConsoleApp1
             Console.Write("a=");
             double a = double.Parse(Console.ReadLine());
             double result = Function(a);
-            Console.WriteLine($"b={result}");
+            Console.WriteLine($"b={Math.Round(result,1)}");
             Console.Read();
         }
         public static double Function(double a)
